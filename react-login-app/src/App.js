@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./App.css";
-import WelcomeScreen from "./WelcomeScreen";
 import PasswordInput from "./PasswordInput";
 
 const url = "http://localhost:5000/login";
