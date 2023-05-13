@@ -1,0 +1,95 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-field-username {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  display: block;
+  width: 74%;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.logout-button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.password-input-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-field {
+  padding-right: 2.5rem; /* add some space for the icon */
+  border-radius: 5px;
+  padding: 10px;
+  width: 418px;
+  border: 1px solid #ccc;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  top: 50%;
+  right: 0.75rem; /* adjust as needed */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .App {
+    padding: 10px;
+  }
+
+  .input-label {
+    font-size: 14px;
+  }
+
+  .input-field {
+    font-size: 14px;
+  }
+
+  .login-button {
+    font-size: 14px;
+  }
+}
